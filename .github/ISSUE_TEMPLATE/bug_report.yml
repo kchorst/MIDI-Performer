@@ -1,0 +1,58 @@
+name: Bug report
+description: Report a reproducible MIDI Performer problem
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for testing MIDI Performer. Do not upload copyrighted music, score, or audio files unless you have permission.
+  - type: input
+    id: version
+    attributes:
+      label: MIDI Performer version
+      value: "0.7.0 Early Access"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Windows version, Python version, FluidSynth version, and instrument-library filename
+      placeholder: "Windows 11, Python 3.12, FluidSynth 2.x, GeneralUser-GS.sf2"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Use a numbered sequence from a clean launch when possible.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics
+      description: Paste relevant text from logs/audio_diagnostics.log after removing private paths if desired.
+      render: text
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmation
+      options:
+        - label: I checked docs/Troubleshooting.md.
+          required: true
+        - label: I am permitted to share every attached file.
+          required: true

@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Runtime and user data
+config/
+logs/
+work/
+versions/
+exports/
+*.emiproj
+
+# Build output
+build/
+dist/
+*.spec
+
+# Downloaded third-party binaries and libraries
+vendor/fluidsynth/**
+!vendor/fluidsynth/README.md
+vendor/ffmpeg/**
+!vendor/ffmpeg/README.md
+assets/soundfonts/*.sf2
+assets/soundfonts/*.sf3
+assets/soundfonts/*-LICENSE.txt
+assets/soundfonts/*-SOURCE.txt
+
+# Downloaded samples and private media
+samples/**/*.mid
+samples/**/*.midi
+samples/**/*-SOURCE.txt
+*.mp3
+*.wav
+*.flac
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test and diagnostic output
+*-qa.log
+audio_diagnostics.log
+.coverage
+htmlcov/

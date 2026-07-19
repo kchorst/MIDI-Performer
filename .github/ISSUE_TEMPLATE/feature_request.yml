@@ -1,0 +1,30 @@
+name: Feature request
+description: Suggest a focused improvement to the musical workflow
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: musical_problem
+    attributes:
+      label: Musical problem
+      description: What listening, interpretation, comparison, or export problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_behavior
+    attributes:
+      label: Proposed behavior
+      description: Describe the smallest useful workflow change.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: checkboxes
+    id: principle
+    attributes:
+      label: Project principle
+      options:
+        - label: This helps the musician make or compare a musical decision.
+          required: true
