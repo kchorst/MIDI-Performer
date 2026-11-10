@@ -1,0 +1,50 @@
+QPushButton#AssistedChoice {
+                text-align:left; font-weight:700; padding:7px 10px; min-height:26px;
+                background:#ffffff; border:1px solid #aeb8c3; border-radius:5px;
+            }
+            QPushButton#AssistedChoice:hover { background:#eaf2fb; border-color:#829db8; }
+            QPushButton#AssistedChoice:checked { background:#dcebf9; border:2px solid #315f8a; }
+            QLabel#WizardStatusLine { background:transparent; border:0; padding:2px 3px; color:#334155; }
+            QProgressBar { min-height:15px; max-height:17px; text-align:center; }
+
+QFrame#EnginePlanCard {
+    background:#ffffff;
+    border:1px solid #c7d1dc;
+    border-radius:7px;
+}
+QFrame#EnginePlanCard[selected="true"] {
+    background:#eef7ff;
+    border:2px solid #2f69b4;
+}
+QLabel#EnginePlanTitle {
+    font-size:15px;
+    font-weight:750;
+    color:#17324d;
+}
+QLabel#PlanFacts {
+    background:#f7f9fc;
+    border:1px solid #d8e0e8;
+    border-radius:4px;
+    padding:6px 7px;
+    color:#334155;
+}
+QLabel#PlanDifference {
+    color:#5b4b1b;
+    background:#fff9e8;
+    border-left:3px solid #d3a72f;
+    padding:5px 7px;
+}
+QLabel#DetailsPanel {
+    background:#f8fafc;
+    border:1px solid #d7dee7;
+    border-radius:5px;
+    padding:7px;
+    color:#334155;
+}
+QLabel#SuccessPanel {
+    color:#246b35;
+    background:#edf9f0;
+    border-left:3px solid #43a15e;
+    padding:6px 8px;
+    font-weight:650;
+}

@@ -1,0 +1,87 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / editor / OS noise
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# Runtime / user state
+user-data/
+config/
+logs/
+cache/
+working_sessions/
+projects/
+output/
+*.sqlite
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.db
+*.db-wal
+*.db-shm
+*.log
+
+# Qualification, tests, build harnesses, and transient evidence
+qualification-results/
+qualification_results/
+WINDOWS_QUALIFICATION_RESULT*.txt
+*qualification-result*.json
+*qualification-result*.txt
+tests/
+engineering/
+pytest.ini
+QA_MATRIX.md
+RELEASE_GATES.md
+PROJECT_DECISIONS.md
+*_selfcheck.py
+*_acceptance.py
+*.partial
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+
+# Build/package outputs
+build/
+dist/
+*.egg-info/
+*.whl
+*.tar.gz
+*.zip
+
+# Generated audio/runtime media
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# User-selected local audio dependencies / SoundFonts
+assets/soundfonts/*.sf2
+assets/soundfonts/*.sf3
+vendor/fluidsynth/*.exe
+vendor/fluidsynth/*.dll
+vendor/ffmpeg/*.exe

@@ -1,0 +1,29 @@
+QLabel#WizardStatusLine { background:transparent; border:0; padding:2px 3px; color:#334155; }
+            QLabel#HeaderStatus { color:#52606d; background:transparent; border:0; }
+            QLabel#HeaderWarning { color:#9a5b00; background:transparent; border:0; font-weight:650; }
+            QPushButton#WizardChoiceButton {
+                text-align:left; font-weight:650; padding:5px 9px; min-height:22px;
+                background:#ffffff; color:#1f2937; border:1px solid #aeb8c3; border-radius:5px;
+            }
+            QPushButton#WizardChoiceButton:hover { background:#eff6ff; border-color:#3b82f6; }
+            QPushButton#WizardPrimaryChoice {
+                font-weight:700; padding:7px 12px; min-height:26px;
+                background:#2563eb; color:white; border:1px solid #1d4ed8; border-radius:5px;
+            }
+            QPushButton#WizardPrimaryChoice:hover { background:#1f57d6; border-color:#1748b5; }
+            QPushButton#WizardPrimaryChoice:disabled { background:#dbe2ea; color:#7c8794; border-color:#c4ccd5; }
+            QPushButton#WizardUtilityButton {
+                background:#eef6ff; color:#1e4f7a; border:1px solid #9ec2e3; font-weight:600;
+            }
+            QFrame#WizardAudioPanel { background:#fff7e5; border:1px solid #e4c77e; border-radius:7px; }
+            QFrame#WizardAudioPanel[ready="true"] { background:#edf8f0; border-color:#8fc79d; }
+            QPlainTextEdit#RecommendationInspector { font-size:13px; line-height:1.3; }
+            QProgressBar { min-height:15px; max-height:17px; text-align:center; }
+            QFrame#MashIdeaCard, QFrame#PlanOptionCard, QFrame#TakeChoiceCard {
+                background:#ffffff; border:1px solid #cbd5e1; border-radius:8px;
+            }
+            QFrame#MashIdeaCard[creative="true"] { background:#fffaf0; border-color:#d9b66f; }
+            QFrame#TakeChoiceCard[chosen="true"] { background:#eef7ff; border:2px solid #2563eb; }
+            QLabel#IdeaBadge { background:#e8f1ff; color:#174a7c; border:1px solid #aac7e8; border-radius:9px; padding:2px 7px; font-weight:650; }
+            QLabel#DetailsPanel { background:#f8fafc; border:1px solid #d7dee7; border-radius:5px; padding:8px; color:#334155; }
+            QLabel#PrepareNextPanel { background:#eef6ff; border:1px solid #b7d2ed; border-radius:6px; padding:7px 9px; color:#264b6d; font-weight:600; }

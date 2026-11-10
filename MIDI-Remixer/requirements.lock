@@ -1,0 +1,5 @@
+# Reproducible MIDI Remixer v0.34.10 runtime environment (Python 3.11-3.13).
+PySide6==6.8.3
+mido==1.3.3
+rapidfuzz==3.14.3
+openpyxl==3.1.5

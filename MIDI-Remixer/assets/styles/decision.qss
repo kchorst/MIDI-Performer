@@ -1,0 +1,25 @@
+QFrame#WorkflowRail { background:#eef1f5; border:1px solid #d8dde4; border-radius:7px; }
+            QListWidget#StepList { background:transparent; border:0; }
+            QListWidget#StepList::item { padding:8px 7px; border-radius:5px; margin:1px 0; color:#59636e; }
+            QListWidget#StepList::item:selected { background:#25364d; color:white; font-weight:700; }
+            QListWidget#StepList::item:disabled { color:#a7adb4; }
+            QFrame#ModeChoiceGroup { background:#ffffff; border:2px solid #b7c8db; border-radius:9px; }
+            QLabel#OnboardingModeTitle { font-size:20px; font-weight:800; color:#142b44; }
+            QLabel#OnboardingModeSubtitle { font-size:13px; color:#526579; }
+            QFrame#CompactLibraryStrip { background:#f4f9ff; border:1px solid #b7d2ed; border-radius:7px; }
+            QLabel#CompactLibrarySummary { color:#264b6d; font-weight:650; background:transparent; border:0; }
+            QPushButton#DecisionButton { text-align:left; font-size:16px; font-weight:800; padding:11px 12px; background:#f8fbff; border:1px solid #8ea9c5; }
+            QPushButton#DecisionButton:hover { background:#eaf2fb; border-color:#4b83bd; }
+            QPushButton#DecisionButton:checked { background:#2563eb; color:white; border:2px solid #174db3; }
+            QLabel#HeaderStatus { color:#52606d; background:transparent; border:0; }
+            QLabel#HeaderWarning { color:#9a5b00; background:transparent; border:0; font-weight:650; }
+            QFrame#ModeCard { background:#ffffff; border:2px solid #d2dbe5; border-radius:9px; }
+            QFrame#ModeCard[selected="true"] { background:#eef5ff; border:3px solid #2563eb; }
+            QLabel#ModeLevel { color:#526579; font-size:11px; font-weight:800; letter-spacing:1px; }
+            QLabel#ModeSelectedBadge { background:#1d4ed8; color:white; border-radius:8px; padding:2px 7px; font-size:10px; font-weight:800; }
+            QLabel#ModeDescription { color:#45596e; font-size:12px; }
+            QLabel#ModeBestFor { color:#315b83; font-size:12px; font-weight:700; }
+            QFrame#AudioReadinessPanel { background:#fff7e5; border:1px solid #e4c77e; border-radius:7px; }
+            QFrame#AudioReadinessPanel[ready="true"] { background:#edf8f0; border-color:#8fc79d; }
+            QLabel#SuccessPanel { color:#246b35; font-weight:650; }
+            QLabel#WarningPanelText { color:#7a5200; font-weight:650; }
